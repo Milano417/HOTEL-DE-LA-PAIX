@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hôtel de la Paix Daoukro | Hôtel avec piscine, bungalows et salles de conférence</title>
+  <meta name="description" content="Hôtel de la Paix de Daoukro (Iffou, Côte d'Ivoire) : chambres, suites et bungalows, deux piscines, restaurant Le Comoé et salles de séminaire. Patrimoine de l'État géré par la SONAPIE.">
+  <meta name="keywords" content="hôtel Daoukro, hôtel avec piscine Daoukro, salle de conférence Daoukro, bungalows Daoukro, Iffou, Côte d'Ivoire">
+  <meta name="theme-color" content="#0b4d33">
+  <meta property="og:title" content="Hôtel de la Paix — Daoukro">
+  <meta property="og:description" content="Akwaba ! Séjournez au cœur de l'Iffou : chambres, bungalows, piscines, restaurant et salles de conférence.">
+  <meta property="og:image" content="assets/img/facade-piscine.jpg">
+  <meta property="og:locale" content="fr_FR">
+  <link rel="icon" href="assets/img/logo-hotel.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Hotel",
+    "name": "Hôtel de la Paix",
+    "image": "assets/img/facade-piscine.jpg",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Route de Pépressou, près de la préfecture, BP 302",
+      "addressLocality": "Daoukro",
+      "addressRegion": "Iffou",
+      "addressCountry": "CI"
+    },
+    "telephone": "+225 27 31 97 81 33",
+    "amenityFeature": [
+      {"@type": "LocationFeatureSpecification", "name": "Piscine"},
+      {"@type": "LocationFeatureSpecification", "name": "Restaurant"},
+      {"@type": "LocationFeatureSpecification", "name": "Salles de conférence"}
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Préchargeur -->
+  <div class="preloader" id="preloader" aria-hidden="true">
+    <div class="preloader__inner">
+      <img src="assets/img/logo-hotel.svg" alt="" class="preloader__logo">
+      <p class="preloader__name">Hôtel de la Paix</p>
+      <span class="preloader__bar"><span></span></span>
+    </div>
+  </div>
+
+  <!-- En-tête -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#accueil" class="brand" aria-label="Hôtel de la Paix Daoukro — accueil">
+        <img src="assets/img/logo-hotel.svg" alt="" class="brand__emblem">
+        <span class="brand__text">
+          <span class="brand__name">Hôtel de la Paix</span>
+          <span class="brand__city">Daoukro</span>
+        </span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Navigation principale">
+        <ul class="nav__list">
+          <li><a href="#hotel" class="nav__link">L'hôtel</a></li>
+          <li><a href="#chambres" class="nav__link">Chambres</a></li>
+          <li><a href="#restaurant" class="nav__link">Restaurant &amp; loisirs</a></li>
+          <li><a href="#evenements" class="nav__link">Séminaires</a></li>
+          <li><a href="#galerie" class="nav__link">Galerie</a></li>
+          <li><a href="#contact" class="nav__link">Contact</a></li>
+        </ul>
+        <a href="#reservation" class="btn btn--gold nav__cta">Réserver</a>
+        <div class="nav__sonapie">
+          <span>Géré par</span>
+          <img src="assets/img/logo-sonapie.png" alt="SONAPIE">
+        </div>
+      </nav>
+
+      <a href="https://sonapie.ci" class="header__sonapie" target="_blank" rel="noopener" title="Société Nationale de gestion du Patrimoine Immobilier de l'État">
+        <img src="assets/img/logo-sonapie.png" alt="SONAPIE">
+      </a>
+
+      <button class="burger" id="burger" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Héro -->
+    <section class="hero" id="accueil">
+      <div class="hero__slides" aria-hidden="true">
+        <div class="hero__slide is-active" style="background-image:url('assets/img/facade-piscine.jpg')"></div>
+        <div class="hero__slide" style="background-image:url('assets/img/piscine-bungalows.jpg')"></div>
+        <div class="hero__slide" style="background-image:url('assets/img/bungalows-vue.jpg')"></div>
+        <div class="hero__slide" style="background-image:url('assets/img/entree.jpg')"></div>
+      </div>
+      <div class="hero__overlay"></div>
+
+      <div class="container hero__content">
+        <p class="hero__eyebrow" data-hero="1"><span class="dot"></span> Akwaba · Daoukro · Région de l'Iffou</p>
+        <h1 class="hero__title" data-hero="2">
+          <span class="line"><span>Un havre de paix</span></span>
+          <span class="line"><span>au cœur de <em>l'Iffou</em></span></span>
+        </h1>
+        <p class="hero__text" data-hero="3">Chambres, suites et bungalows au milieu des jardins, deux piscines, une table aux saveurs d'Afrique et d'Europe, et des salles pour vos rencontres. Depuis 1996.</p>
+        <div class="hero__actions" data-hero="4">
+          <a href="#reservation" class="btn btn--gold btn--lg">Demander une réservation</a>
+          <a href="#chambres" class="btn btn--ghost btn--lg">Découvrir nos hébergements</a>
+        </div>
+      </div>
+
+      <div class="hero__dots" role="tablist" aria-label="Diaporama">
+        <button class="is-active" aria-label="Photo 1"></button>
+        <button aria-label="Photo 2"></button>
+        <button aria-label="Photo 3"></button>
+        <button aria-label="Photo 4"></button>
+      </div>
+
+      <a href="#hotel" class="hero__scroll" aria-label="Défiler vers le bas">
+        <span></span>
+      </a>
+    </section>
+
+    <!-- Barre de réservation rapide -->
+    <div class="container">
+      <form class="quickbook reveal" id="quickbook" aria-label="Réservation rapide">
+        <label class="quickbook__field">
+          <span>Arrivée</span>
+          <input type="date" name="arrivee" required>
+        </label>
+        <label class="quickbook__field">
+          <span>Départ</span>
+          <input type="date" name="depart" required>
+        </label>
+        <label class="quickbook__field">
+          <span>Personnes</span>
+          <select name="personnes">
+            <option>1</option><option selected>2</option><option>3</option><option>4</option><option>5+</option>
+          </select>
+        </label>
+        <label class="quickbook__field">
+          <span>Hébergement</span>
+          <select name="categorie">
+            <option>Chambre</option><option>Suite</option><option>Bungalow</option>
+          </select>
+        </label>
+        <button type="submit" class="btn btn--green quickbook__btn">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm5.3 14.2c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.3-.7-2.8-1.1-4.5-3.9-4.7-4.1-.1-.2-1.1-1.5-1.1-2.9s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.4 0 .5l-.3.5-.4.4c-.1.2-.3.3-.1.6.2.3.7 1.2 1.6 2 1.1.9 2 1.2 2.3 1.4.3.1.5.1.6-.1l.9-1c.2-.3.4-.2.6-.1l1.9.9c.3.1.5.2.5.3.1.2.1.7-.1 1.2Z"/></svg>
+          Vérifier par WhatsApp
+        </button>
+      </form>
+    </div>
+
+    <!-- L'hôtel / histoire -->
+    <section class="section about" id="hotel">
+      <div class="container about__grid">
+        <div class="about__media reveal" data-reveal="left">
+          <div class="about__img about__img--main parallax" data-speed="0.06">
+            <img src="assets/img/batiment-piscine.jpg" alt="Bâtiment principal de l'Hôtel de la Paix et sa piscine" loading="lazy">
+          </div>
+          <div class="about__img about__img--small parallax" data-speed="-0.08">
+            <img src="assets/img/entree.jpg" alt="Entrée de l'Hôtel de la Paix à Daoukro" loading="lazy">
+          </div>
+          <div class="about__badge">
+            <span class="about__badge-year">1996</span>
+            <span class="about__badge-label">Ouvert depuis le<br>23 décembre</span>
+          </div>
+        </div>
+
+        <div class="about__content">
+          <p class="eyebrow reveal">Bienvenue · Akwaba</p>
+          <h2 class="title reveal">Un lieu chargé d'histoire, tourné vers l'accueil</h2>
+          <p class="reveal">Ouvert le 23 décembre 1996, l'Hôtel de la Paix est un complexe hôtelier emblématique de Daoukro, à environ 240&nbsp;km d'Abidjan. Construit par l'État ivoirien, il accueille depuis près de trente ans visiteurs officiels, voyageurs d'affaires et familles de passage dans la région de l'Iffou.</p>
+          <p class="reveal">Belle œuvre architecturale en pleine région forestière, l'hôtel réunit un bâtiment principal, des bungalows aux toits de tuiles nichés dans les jardins, des piscines, des espaces de restauration et des salles de réunion.</p>
+
+          <div class="heritage reveal">
+            <img src="assets/img/logo-sonapie.png" alt="SONAPIE" class="heritage__logo">
+            <p><strong>Patrimoine de l'État.</strong> L'établissement est géré par la SONAPIE, Société Nationale de gestion du Patrimoine Immobilier de l'État.</p>
+          </div>
+
+          <ul class="stats">
+            <li class="stat reveal"><span class="stat__num" data-count="34">0</span><span class="stat__label">Chambres</span></li>
+            <li class="stat reveal"><span class="stat__num" data-count="18">0</span><span class="stat__label">Bungalows</span></li>
+            <li class="stat reveal"><span class="stat__num" data-count="2">0</span><span class="stat__label">Piscines</span></li>
+            <li class="stat reveal"><span class="stat__num" data-count="4">0</span><span class="stat__label">Salles de conférence</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bandeau défilant -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <span>Hébergement</span><i>✦</i><span>Piscines</span><i>✦</i><span>Restaurant Le Comoé</span><i>✦</i><span>Séminaires</span><i>✦</i><span>Bungalows</span><i>✦</i><span>Jardins</span><i>✦</i><span>Akwaba</span><i>✦</i>
+        <span>Hébergement</span><i>✦</i><span>Piscines</span><i>✦</i><span>Restaurant Le Comoé</span><i>✦</i><span>Séminaires</span><i>✦</i><span>Bungalows</span><i>✦</i><span>Jardins</span><i>✦</i><span>Akwaba</span><i>✦</i>
+      </div>
+    </div>
+
+    <!-- Chambres -->
+    <section class="section rooms" id="chambres">
+      <div class="container">
+        <div class="section__head">
+          <p class="eyebrow reveal">Hébergement</p>
+          <h2 class="title reveal">Chambres, suites &amp; bungalows</h2>
+          <p class="section__lead reveal">Trois façons de séjourner à Daoukro, toutes climatisées, pour une nuit d'étape comme pour un long séjour.</p>
+        </div>
+
+        <div class="rooms__grid">
+          <article class="room reveal" data-reveal="up">
+            <div class="room__media">
+              <img src="assets/img/chambre-superieure.jpg" alt="Chambre de l'Hôtel de la Paix avec grand lit et coin salon" loading="lazy">
+              <span class="room__tag">Bâtiment principal</span>
+            </div>
+            <div class="room__body">
+              <h3>Chambres</h3>
+              <p>Des chambres lumineuses et spacieuses, avec grand lit, coin détente et larges baies vitrées.</p>
+              <ul class="room__features">
+                <li>Climatisation</li><li>Télévision</li><li>Téléphone</li><li>Minibar</li>
+              </ul>
+              <div class="room__foot">
+                <span class="room__price">Tarif sur demande</span>
+                <a href="#reservation" class="link-arrow" data-room="Chambre">Réserver</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="room room--featured reveal" data-reveal="up">
+            <div class="room__media">
+              <img src="assets/img/chambre-accueil-kente.jpg" alt="Lit de suite décoré d'un pagne kente et de cygnes en serviettes" loading="lazy">
+              <span class="room__tag">5 suites</span>
+            </div>
+            <div class="room__body">
+              <h3>Suites</h3>
+              <p>Plus d'espace et une attention particulière à l'accueil, pour les séjours qui comptent.</p>
+              <ul class="room__features">
+                <li>Climatisation</li><li>Espace salon</li><li>Télévision</li><li>Minibar</li>
+              </ul>
+              <div class="room__foot">
+                <span class="room__price">Tarif sur demande</span>
+                <a href="#reservation" class="link-arrow" data-room="Suite">Réserver</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="room reveal" data-reveal="up">
+            <div class="room__media">
+              <img src="assets/img/bungalows-vue.jpg" alt="Bungalows aux toits de tuiles dans les jardins de l'hôtel" loading="lazy">
+              <span class="room__tag">18 bungalows</span>
+            </div>
+            <div class="room__body">
+              <h3>Bungalows</h3>
+              <p>Studios et appartements indépendants, à l'architecture inspirée des cases traditionnelles, au calme des jardins.</p>
+              <ul class="room__features">
+                <li>Climatisation</li><li>Indépendance</li><li>Stationnement</li><li>Jardins</li>
+              </ul>
+              <div class="room__foot">
+                <span class="room__price">Tarif sur demande</span>
+                <a href="#reservation" class="link-arrow" data-room="Bungalow">Réserver</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Restaurant & loisirs -->
+    <section class="section dining" id="restaurant">
+      <div class="dining__bg parallax" data-speed="0.12" style="background-image:url('assets/img/piscine-bungalows-2.jpg')"></div>
+      <div class="container dining__inner">
+        <div class="section__head section__head--light">
+          <p class="eyebrow reveal">Restauration &amp; détente</p>
+          <h2 class="title reveal">Savourer, se rafraîchir, se détendre</h2>
+        </div>
+
+        <div class="dining__grid">
+          <article class="feature reveal" data-reveal="up">
+            <div class="feature__img"><img src="assets/img/restaurant.jpg" alt="Salle du restaurant Le Comoé" loading="lazy"></div>
+            <div class="feature__body">
+              <span class="feature__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M7 2v8a3 3 0 0 0 2 2.8V22h2V12.8A3 3 0 0 0 13 10V2h-2v7h-1V2H9v7H8V2zm9 0c-1.7 0-3 2.2-3 5v6h2v9h2V2z"/></svg>
+              </span>
+              <h3>Restaurant « Le Comoé »</h3>
+              <p>Spécialités africaines et européennes servies dans une salle élégante et lumineuse.</p>
+            </div>
+          </article>
+
+          <article class="feature reveal" data-reveal="up">
+            <div class="feature__img"><img src="assets/img/piscine-bungalows.jpg" alt="Piscines de l'hôtel entourées de palmiers" loading="lazy"></div>
+            <div class="feature__body">
+              <span class="feature__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M2 18c1.5 0 2.3-1 4-1s2.5 1 4 1 2.3-1 4-1 2.5 1 4 1 2.3-1 4-1v2c-1.5 0-2.3 1-4 1s-2.5-1-4-1-2.3 1-4 1-2.5-1-4-1-2.3 1-4 1zm6-3.5V5a3 3 0 0 1 6 0h-2a1 1 0 0 0-2 0v2h4V5a3 3 0 0 1 6 0h-2a1 1 0 0 0-2 0v9.5h-2V12h-4v2.5z"/></svg>
+              </span>
+              <h3>Deux piscines</h3>
+              <p>Un grand bassin pour les adultes et un bassin pour les enfants, bordés de transats et de palmiers.</p>
+            </div>
+          </article>
+
+          <article class="feature reveal" data-reveal="up">
+            <div class="feature__img"><img src="assets/img/bungalows-visite.jpg" alt="Allées et jardins de l'hôtel" loading="lazy"></div>
+            <div class="feature__body">
+              <span class="feature__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm6.9 6h-3a15.7 15.7 0 0 0-1.4-3.6A8 8 0 0 1 18.9 8ZM12 4c.8 1.2 1.5 2.5 1.9 4h-3.8c.4-1.5 1.1-2.8 1.9-4ZM4.3 14a8 8 0 0 1 0-4h3.4a16 16 0 0 0 0 4zm.8 2h3a15.7 15.7 0 0 0 1.4 3.6A8 8 0 0 1 5.1 16Zm3-8h-3a8 8 0 0 1 4.4-3.6C8.9 5.5 8.4 6.7 8 8Zm3.9 12c-.8-1.2-1.5-2.5-1.9-4h3.8c-.4 1.5-1.1 2.8-1.9 4Zm2.3-6H9.8a14 14 0 0 1 0-4h4.5a14 14 0 0 1 0 4Zm.3 5.6c.6-1.1 1.1-2.3 1.4-3.6h3a8 8 0 0 1-4.4 3.6Zm1.8-5.6a16 16 0 0 0 0-4h3.4a8 8 0 0 1 0 4z"/></svg>
+              </span>
+              <h3>Loisirs &amp; maquis</h3>
+              <p>Bars, maquis-restaurant, allocodrome, tennis, tennis de table et baby-foot dans un cadre verdoyant.</p>
+            </div>
+          </article>
+        </div>
+        <p class="note reveal">Horaires, menus et disponibilité des équipements : renseignez-vous auprès de la réception.</p>
+      </div>
+    </section>
+
+    <!-- Séminaires -->
+    <section class="section events" id="evenements">
+      <div class="container events__grid">
+        <div class="events__content">
+          <p class="eyebrow reveal">Séminaires &amp; événements</p>
+          <h2 class="title reveal">Des salles pour vos rencontres professionnelles</h2>
+          <p class="reveal">Conférences, formations, assemblées, réunions institutionnelles : l'Hôtel de la Paix met à votre disposition quatre salles modulables, avec hébergement et restauration sur place pour vos participants.</p>
+
+          <ul class="capacity">
+            <li class="capacity__item reveal">
+              <span class="capacity__num"><b data-count="3">0</b>×</span>
+              <span class="capacity__txt"><strong>Grandes salles</strong>jusqu'à 160 places chacune</span>
+            </li>
+            <li class="capacity__item reveal">
+              <span class="capacity__num"><b data-count="1">0</b>×</span>
+              <span class="capacity__txt"><strong>Salle de réunion</strong>jusqu'à 35 places</span>
+            </li>
+          </ul>
+
+          <ul class="checklist reveal">
+            <li>Configurations en U, théâtre ou classe</li>
+            <li>Équipements audiovisuels</li>
+            <li>Pauses-café et déjeuners sur place</li>
+            <li>Hébergement des participants</li>
+          </ul>
+
+          <a href="#reservation" class="btn btn--green btn--lg reveal" data-room="Salle de conférence">Demander un devis</a>
+        </div>
+
+        <div class="events__media reveal" data-reveal="right">
+          <div class="tilt">
+            <img src="assets/img/salle-conference.jpg" alt="Salle de conférence en configuration U" loading="lazy">
+          </div>
+          <div class="events__thumb">
+            <img src="assets/img/salle-reunion.jpg" alt="Salle de réunion" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Galerie -->
+    <section class="section gallery" id="galerie">
+      <div class="container">
+        <div class="section__head">
+          <p class="eyebrow reveal">Galerie</p>
+          <h2 class="title reveal">L'hôtel en images</h2>
+        </div>
+
+        <div class="filters reveal" role="tablist" aria-label="Filtrer la galerie">
+          <button class="filter is-active" data-filter="all">Tout</button>
+          <button class="filter" data-filter="chambres">Chambres</button>
+          <button class="filter" data-filter="exterieurs">Extérieurs</button>
+          <button class="filter" data-filter="services">Restaurant &amp; salles</button>
+        </div>
+
+        <div class="masonry" id="masonry">
+          <a href="assets/img/facade-piscine.jpg" class="masonry__item tall" data-cat="exterieurs" data-caption="Le bâtiment principal et la grande piscine"><img src="assets/img/facade-piscine.jpg" alt="Façade et piscine" loading="lazy"></a>
+          <a href="assets/img/suite-salon.jpg" class="masonry__item" data-cat="chambres" data-caption="Chambre avec coin salon"><img src="assets/img/suite-salon.jpg" alt="Chambre avec coin salon" loading="lazy"></a>
+          <a href="assets/img/piscine-bungalows.jpg" class="masonry__item wide" data-cat="exterieurs" data-caption="Les piscines et les bungalows"><img src="assets/img/piscine-bungalows.jpg" alt="Piscines et bungalows" loading="lazy"></a>
+          <a href="assets/img/restaurant.jpg" class="masonry__item" data-cat="services" data-caption="Le restaurant Le Comoé"><img src="assets/img/restaurant.jpg" alt="Restaurant" loading="lazy"></a>
+          <a href="assets/img/chambre-accueil-kente.jpg" class="masonry__item tall" data-cat="chambres" data-caption="Accueil en chambre, touche kente"><img src="assets/img/chambre-accueil-kente.jpg" alt="Lit décoré d'un pagne kente" loading="lazy"></a>
+          <a href="assets/img/bungalows-vue.jpg" class="masonry__item" data-cat="exterieurs" data-caption="Les bungalows dans les jardins"><img src="assets/img/bungalows-vue.jpg" alt="Bungalows" loading="lazy"></a>
+          <a href="assets/img/salle-conference.jpg" class="masonry__item" data-cat="services" data-caption="Salle de conférence"><img src="assets/img/salle-conference.jpg" alt="Salle de conférence" loading="lazy"></a>
+          <a href="assets/img/chambre-superieure.jpg" class="masonry__item" data-cat="chambres" data-caption="Chambre lumineuse"><img src="assets/img/chambre-superieure.jpg" alt="Chambre" loading="lazy"></a>
+          <a href="assets/img/entree.jpg" class="masonry__item" data-cat="exterieurs" data-caption="L'entrée de l'hôtel"><img src="assets/img/entree.jpg" alt="Entrée" loading="lazy"></a>
+          <a href="assets/img/batiment-piscine.jpg" class="masonry__item wide" data-cat="exterieurs" data-caption="Terrasse au bord de la piscine"><img src="assets/img/batiment-piscine.jpg" alt="Terrasse de la piscine" loading="lazy"></a>
+          <a href="assets/img/bungalows-visite.jpg" class="masonry__item" data-cat="exterieurs" data-caption="Allée des bungalows"><img src="assets/img/bungalows-visite.jpg" alt="Allée des bungalows" loading="lazy"></a>
+          <a href="assets/img/chambre-lit.jpg" class="masonry__item" data-cat="chambres" data-caption="Chambre double"><img src="assets/img/chambre-lit.jpg" alt="Chambre double" loading="lazy"></a>
+          <a href="assets/img/salle-reunion.jpg" class="masonry__item" data-cat="services" data-caption="Salle de réunion"><img src="assets/img/salle-reunion.jpg" alt="Salle de réunion" loading="lazy"></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Découvrir Daoukro -->
+    <section class="discover" id="daoukro">
+      <div class="discover__media">
+        <img src="assets/img/palais-congres.jpg" alt="Vue aérienne du Palais des congrès de Daoukro" loading="lazy" class="parallax" data-speed="0.08">
+      </div>
+      <div class="discover__card reveal" data-reveal="right">
+        <p class="eyebrow">Découvrir Daoukro</p>
+        <h2 class="title">Aux portes du Palais des congrès</h2>
+        <p>Le Palais des congrès et ses jardins accueillent congrès, foires, festivals et grands événements. Profitez de votre séjour pour visiter les sites historiques de la région : le pont Abla Pokou, du nom de la mythique reine des Baoulé, et les fermes agro-pastorales de l'Iffou.</p>
+        <ul class="facts">
+          <li><b>≈ 240 km</b><span>d'Abidjan</span></li>
+          <li><b>Iffou</b><span>Région</span></li>
+          <li><b>BP 302</b><span>Route de Pépressou</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Réservation -->
+    <section class="section booking" id="reservation">
+      <div class="container booking__grid">
+        <div class="booking__intro">
+          <p class="eyebrow reveal">Réservation</p>
+          <h2 class="title reveal">Préparez votre séjour</h2>
+          <p class="reveal">Remplissez le formulaire : votre demande s'ouvre dans WhatsApp avec un message déjà rédigé. La réception vous confirme la disponibilité et le tarif.</p>
+          <div class="booking__contacts reveal">
+            <a href="tel:+2252731978133" class="contact-pill">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15 15 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1z"/></svg>
+              +225 27 31 97 81 33
+            </a>
+            <a href="#" class="contact-pill contact-pill--wa" data-wa>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm5.3 14.2c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.3-.7-2.8-1.1-4.5-3.9-4.7-4.1-.1-.2-1.1-1.5-1.1-2.9s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.4 0 .5l-.3.5-.4.4c-.1.2-.3.3-.1.6.2.3.7 1.2 1.6 2 1.1.9 2 1.2 2.3 1.4.3.1.5.1.6-.1l.9-1c.2-.3.4-.2.6-.1l1.9.9c.3.1.5.2.5.3.1.2.1.7-.1 1.2Z"/></svg>
+              Écrire sur WhatsApp
+            </a>
+          </div>
+        </div>
+
+        <form class="booking__form reveal" id="booking-form" data-reveal="up" novalidate>
+          <div class="field-row">
+            <div class="field">
+              <input type="text" id="nom" name="nom" placeholder=" " required autocomplete="name">
+              <label for="nom">Nom complet</label>
+            </div>
+            <div class="field">
+              <input type="tel" id="tel" name="tel" placeholder=" " required autocomplete="tel">
+              <label for="tel">Téléphone</label>
+            </div>
+          </div>
+          <div class="field-row">
+            <div class="field">
+              <input type="date" id="arrivee" name="arrivee" required>
+              <label for="arrivee" class="is-fixed">Date d'arrivée</label>
+            </div>
+            <div class="field">
+              <input type="date" id="depart" name="depart" required>
+              <label for="depart" class="is-fixed">Date de départ</label>
+            </div>
+          </div>
+          <div class="field-row">
+            <div class="field">
+              <select id="categorie" name="categorie" required>
+                <option>Chambre</option>
+                <option>Suite</option>
+                <option>Bungalow</option>
+                <option>Salle de conférence</option>
+              </select>
+              <label for="categorie" class="is-fixed">Prestation souhaitée</label>
+            </div>
+            <div class="field">
+              <input type="number" id="personnes" name="personnes" min="1" max="200" value="2" required>
+              <label for="personnes" class="is-fixed">Nombre de personnes</label>
+            </div>
+          </div>
+          <div class="field">
+            <textarea id="message" name="message" rows="3" placeholder=" "></textarea>
+            <label for="message">Message (facultatif)</label>
+          </div>
+          <p class="form-error" id="form-error" role="alert"></p>
+          <button type="submit" class="btn btn--gold btn--lg btn--block">Envoyer ma demande via WhatsApp</button>
+          <p class="form-hint">Demande sans engagement. La réservation n'est confirmée qu'après réponse de l'hôtel.</p>
+        </form>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section contact" id="contact">
+      <div class="container contact__grid">
+        <div class="contact__info">
+          <p class="eyebrow reveal">Nous trouver</p>
+          <h2 class="title reveal">Contact &amp; accès</h2>
+          <ul class="contact__list">
+            <li class="reveal">
+              <span class="contact__ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 0 0-7-7Zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5Z"/></svg></span>
+              <div><strong>Adresse</strong>Route de Pépressou, près de la préfecture<br>BP 302 Daoukro, Côte d'Ivoire</div>
+            </li>
+            <li class="reveal">
+              <span class="contact__ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15 15 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1z"/></svg></span>
+              <div><strong>Téléphones</strong>
+                <a href="tel:+2252731978133">+225 27 31 97 81 33</a><br>
+                <a href="tel:+2250101535274">+225 01 01 53 52 74</a> · <a href="tel:+2250103587764">+225 01 03 58 77 64</a><br>
+                <a href="tel:+2250140390943">+225 01 40 39 09 43</a>
+              </div>
+            </li>
+            <li class="reveal">
+              <span class="contact__ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5h18a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1Zm9 7.2L4 7v10h16V7z"/></svg></span>
+              <div><strong>E-mail</strong><a href="mailto:hotelpaix-daoukro@outlook.com">hotelpaix-daoukro@outlook.com</a></div>
+            </li>
+          </ul>
+          <a href="https://www.google.com/maps/dir/?api=1&amp;destination=H%C3%B4tel%20de%20la%20Paix%20Daoukro" target="_blank" rel="noopener" class="btn btn--green reveal">Itinéraire Google Maps</a>
+        </div>
+        <div class="contact__map reveal" data-reveal="right">
+          <iframe title="Carte de l'Hôtel de la Paix à Daoukro" src="https://www.google.com/maps?q=H%C3%B4tel%20de%20la%20Paix%20Daoukro&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Pied de page -->
+  <footer class="footer">
+    <div class="kente-band" aria-hidden="true"></div>
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <div class="brand brand--footer">
+          <img src="assets/img/logo-hotel.svg" alt="" class="brand__emblem">
+          <span class="brand__text">
+            <span class="brand__name">Hôtel de la Paix</span>
+            <span class="brand__city">Daoukro</span>
+          </span>
+        </div>
+        <p>Un établissement historique au cœur de la région de l'Iffou, depuis 1996.</p>
+      </div>
+      <div>
+        <h4>Navigation</h4>
+        <ul class="footer__links">
+          <li><a href="#hotel">L'hôtel</a></li>
+          <li><a href="#chambres">Chambres &amp; bungalows</a></li>
+          <li><a href="#restaurant">Restaurant &amp; loisirs</a></li>
+          <li><a href="#evenements">Séminaires</a></li>
+          <li><a href="#reservation">Réservation</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul class="footer__links">
+          <li>BP 302 Daoukro, Côte d'Ivoire</li>
+          <li><a href="tel:+2252731978133">+225 27 31 97 81 33</a></li>
+          <li><a href="mailto:hotelpaix-daoukro@outlook.com">hotelpaix-daoukro@outlook.com</a></li>
+        </ul>
+      </div>
+      <div class="footer__sonapie">
+        <h4>Patrimoine de l'État</h4>
+        <a href="https://sonapie.ci" target="_blank" rel="noopener" class="footer__sonapie-logo">
+          <img src="assets/img/logo-sonapie.png" alt="SONAPIE — Société Nationale de gestion du Patrimoine Immobilier de l'État">
+        </a>
+        <p>Établissement géré par la Société Nationale de gestion du Patrimoine Immobilier de l'État.</p>
+      </div>
+    </div>
+    <div class="container footer__bottom">
+      <p>© <span id="year"></span> Hôtel de la Paix — Daoukro. Tous droits réservés.</p>
+      <a href="#accueil">Retour en haut ↑</a>
+    </div>
+  </footer>
+
+  <!-- Bouton WhatsApp flottant -->
+  <a href="#" class="wa-float" data-wa aria-label="Contacter l'hôtel sur WhatsApp">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm5.3 14.2c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.3-.7-2.8-1.1-4.5-3.9-4.7-4.1-.1-.2-1.1-1.5-1.1-2.9s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.4 0 .5l-.3.5-.4.4c-.1.2-.3.3-.1.6.2.3.7 1.2 1.6 2 1.1.9 2 1.2 2.3 1.4.3.1.5.1.6-.1l.9-1c.2-.3.4-.2.6-.1l1.9.9c.3.1.5.2.5.3.1.2.1.7-.1 1.2Z"/></svg>
+  </a>
+
+  <!-- Visionneuse -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Visionneuse photo" hidden>
+    <button class="lightbox__close" aria-label="Fermer">×</button>
+    <button class="lightbox__nav lightbox__prev" aria-label="Photo précédente">‹</button>
+    <figure class="lightbox__figure">
+      <img src="" alt="">
+      <figcaption></figcaption>
+    </figure>
+    <button class="lightbox__nav lightbox__next" aria-label="Photo suivante">›</button>
+  </div>
+
+  <div class="cursor-glow" aria-hidden="true"></div>
+  <div class="progress" aria-hidden="true"></div>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
